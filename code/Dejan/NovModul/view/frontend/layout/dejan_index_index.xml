@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      <head>
+		<css src="Dejan_NovModul::css/dejanStyle.css"/>
+		<css src="Fwd_Couchconfig::css/bootstrap.css" />
+		<css src="Dejan_NovModul::css/bootstrap.css"/>
+		<script src="Dejan_NovModul::js/dejanJs.js"/>
+	</head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="dejan_index_index"
+                   template="Dejan_NovModul::template_new_page.phtml" />
+        </referenceContainer>
+        <referenceContainer name="main.content" htmlTag="main" htmlClass="page-main-full-width" />
+        <referenceContainer name="header.panel" remove="true"/>
+    </body>
+</page>

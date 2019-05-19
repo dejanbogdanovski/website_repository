@@ -1,0 +1,47 @@
+.row {
+	background-color: blue;
+}
+
+.images_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.one_image {
+	width: 50%;
+}
+
+.bottom_container{
+    width: 100%;
+    position: relative;
+    background-color: #aaa;
+}
+
+.bottom_figure {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+}
+
+.figure_part1{
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.figure_part2{
+  position: absolute;
+  right: 20%;
+  bottom: 30%;
+  background-color: red;
+  color: white;
+  font-size: 17px;
+  line-height: 18px;
+}
